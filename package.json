@@ -1,0 +1,39 @@
+{
+  "name": "statsd-socket.io-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "built/index.js",
+  "scripts": {
+    "build": "tsc",
+    "audit": "npm-audit-ci -h",
+    "lint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
+    "test:ci": "jest --verbose --no-coverage --detectOpenHandles --passWithNoTests test/integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilguzin/statsd-socket.io-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilguzin/statsd-socket.io-backend/issues"
+  },
+  "homepage": "https://github.com/ilguzin/statsd-socket.io-backend#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/events": "^3.0.0",
+    "@types/jest": "^24.0.18",
+    "@types/socket.io": "^2.1.2",
+    "@types/socket.io-client": "^1.4.32",
+    "dotenv": "^8.1.0",
+    "hot-shots": "^6.4.1",
+    "jest": "^24.9.0",
+    "npm-audit-ci": "^1.2.1",
+    "socket.io-client": "^2.2.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}

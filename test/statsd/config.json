@@ -1,0 +1,11 @@
+{
+  "port": 8125,
+  "debug": true,
+  "socketIoBackend": {
+    "port": 8000
+  },
+  "flushInterval": 0,
+  "backends": [
+    "statsd-socket.io-backend"
+  ]
+}

@@ -1,0 +1,11 @@
+# TypeScript
+built
+
+# IDE
+.vscode
+
+# NodeJS
+node_modules
+
+# Local or sensitive data files
+.local.*
