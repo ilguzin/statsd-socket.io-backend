@@ -1,7 +1,7 @@
 {
   "name": "statsd-socket.io-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "StatsD Socket.IO backend module. Will forward metrics data to Socket.IO client.",
   "main": "built/index.js",
   "scripts": {
     "build": "tsc",

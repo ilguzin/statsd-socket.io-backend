@@ -16,5 +16,9 @@ script:
   - npm run test:ci
 deploy:
   provider: npm
-  email: "ilguzin@gmail.com"
-  api_key: "NPM_AUTH_TOKEN"
+  email: ilguzin@gmail.com
+  api_key:
+    secure: b1LpkFxT2Gw4iiW2Z4oG61Xpo8OJQmRBvs5B8VgnSrsvFMbr5Dwm2A0pXR0YkzV6xoyZrAwYn0zNAUaQz5Gty1J/BaL6ggw4HH3K7wh+PgH77cEvI903Q1JExwvfGwubx3V9T7/FkVzgUkXjtI56pi2BTu85dJGuGVLyUYnifzCPdZU4w8KIQD17ZdhvnYz9I8g5/lXlwEfzSZzbfDCbZAJuIDa7+oW1fx+Qjr1lxNywSW/XyKwiFSiOZoOH8X4v3+u43984066TMgjmsPpJ983Kf27kWFo3VRD7CKmiNzW94WhYK674um2tINATv9CsysGv9+El3mLIT3o8UonT1DLmHWlPHQvm487ijO20tthkIB1eQSId8FQ74eoB8vygYHQcyi6NBcrXucs6l1YXUotkyePeqmOVsy1O2k7fci/Ij80oUndeHe+gpwuEqwgd6iZJU410yA3McJWeWAOQpJxK0AbZZ+mLuM+VvdpcZigw3VHWW4iOaFQSH8TFdkUWePAQgvU72Sj1yApuKFRJVVVk/z7Yr6TN1vBdBeLJCKam+LhZ5GruVrefIzqOshmKJtFFkSJJimvpK2yFH3EakOi8onlrJymXCfQI7GMjwaJQSvIfVsk8iYAGHZ0d7r8htOzPGkwXeNQ/vkFmiIw3tA1H0s4XkXvh4ce6ZsmxObE=
+  on:
+    tags: true
+    repo: ilguzin/statsd-socket.io-backend
