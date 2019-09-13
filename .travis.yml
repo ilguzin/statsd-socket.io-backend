@@ -14,3 +14,7 @@ before_script:
   - npm run build
 script:
   - npm run test:ci
+deploy:
+  provider: npm
+  email: "ilguzin@gmail.com"
+  api_key: "NPM_AUTH_TOKEN"
