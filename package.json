@@ -5,7 +5,7 @@
   "main": "built/index.js",
   "scripts": {
     "build": "tsc",
-    "audit": "npm-audit-ci -h",
+    "audit": "npm-audit-ci -m",
     "lint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
     "test:ci": "jest --verbose --no-coverage --detectOpenHandles --passWithNoTests ./test/integration"
   },
