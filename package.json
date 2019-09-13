@@ -1,13 +1,14 @@
 {
   "name": "statsd-socket.io-backend",
-  "version": "1.0.5",
+  "version": "1.0.3",
   "description": "StatsD Socket.IO backend module. Will forward metrics data to Socket.IO client.",
   "main": "built/index.js",
   "scripts": {
     "build": "tsc",
     "audit": "npm-audit-ci -m",
     "lint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
-    "test:ci": "jest --verbose --no-coverage --detectOpenHandles --passWithNoTests test/integration"
+    "test:ci": "jest --verbose --no-coverage --detectOpenHandles --passWithNoTests test/integration",
+    "prepublishOnly": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
