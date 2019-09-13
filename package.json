@@ -8,7 +8,8 @@
     "audit": "npm-audit-ci -m",
     "lint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
     "test:ci": "jest --verbose --no-coverage --detectOpenHandles --passWithNoTests test/integration",
-    "prepublishOnly": "npm install && npm run build"
+    "prepublishOnly": "npm install && npm run build",
+    "version:patch": "npm version patch && git push --all && git push --tags"
   },
   "repository": {
     "type": "git",
