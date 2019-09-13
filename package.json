@@ -7,8 +7,7 @@
     "build": "tsc",
     "audit": "npm-audit-ci -m",
     "lint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
-    "test:ci": "jest --verbose --no-coverage --detectOpenHandles --passWithNoTests test/integration",
-    "prepare": "npm install && npm run build"
+    "test:ci": "jest --verbose --no-coverage --detectOpenHandles --passWithNoTests test/integration"
   },
   "repository": {
     "type": "git",
