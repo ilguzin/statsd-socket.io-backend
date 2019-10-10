@@ -3,6 +3,7 @@
 
 [![Build Status](https://travis-ci.org/ilguzin/statsd-socket.io-backend.svg?branch=master)](https://travis-ci.org/ilguzin/statsd-socket.io-backend)
 [![David Status](https://david-dm.org/ilguzin/statsd-socket.io-backend.svg)](https://github.com/ilguzin/statsd-socket.io-backend)
+[![Dependabot Enabled](https://api.dependabot.com/badges/status?host=github&repo=ilguzin/statsd-socket.io-backend)](https://github.com/ilguzin/statsd-socket.io-backend)
 
 ## Installation
 
