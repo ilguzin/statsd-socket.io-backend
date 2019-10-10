@@ -55,3 +55,22 @@ StatsD Dockerfile:
     EXPOSE 8126/tcp
 
     CMD node /usr/local/src/statsd/stats.js /etc/default/statsd.js
+
+## Testing locally
+
+You have to have Docker host up and running.
+
+Set the following environment variables to your needs:
+
+    export DOCKER_HOST_IP=192.168.99.103
+    export STATSD_HOST=${DOCKER_HOST_IP}
+    export STATSD_PORT=8125
+    export SOCKET_PORT=8000 
+
+Run the following commands:
+
+    docker build -t ilguzin/statsd-socket.io-backend .
+
+    docker run -itd -p ${STATSD_PORT}:${STATSD_PORT}/udp -p ${SOCKET_PORT}:${SOCKET_PORT} ilguzin/statsd-socket.io-backend
+
+    npm run test:ci
