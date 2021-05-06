@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  reviewers:
+  - ilguzin
+  assignees:
+  - ilguzin
+  ignore:
+  - dependency-name: socket.io
+    versions:
+    - ">= 3.a, < 4"
+  - dependency-name: socket.io-client
+    versions:
+    - ">= 3.a, < 4"
+  - dependency-name: socket.io-client
+    versions:
+    - 4.0.0
+    - 4.0.1
+  - dependency-name: typescript
+    versions:
+    - 3.9.8
