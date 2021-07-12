@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ilguzin/statsd-socket.io-backend#readme",
   "dependencies": {
-    "socket.io": "^2.3.0"
+    "socket.io": "^4.1.3"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
