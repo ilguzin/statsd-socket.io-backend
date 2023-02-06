@@ -31,7 +31,7 @@
     "@types/socket.io": "^2.1.4",
     "@types/socket.io-client": "^1.4.32",
     "dotenv": "^8.1.0",
-    "hot-shots": "^8.0.0",
+    "hot-shots": "^10.0.0",
     "jest": "^25.1.0",
     "npm-audit-ci": "^1.2.1",
     "socket.io-client": "^2.3.0",
