@@ -34,7 +34,7 @@
     "hot-shots": "^8.0.0",
     "jest": "^25.1.0",
     "npm-audit-ci": "^1.2.1",
-    "socket.io-client": "^2.3.0",
+    "socket.io-client": "^4.6.1",
     "ts-jest": "^25.0.0",
     "typescript": "^3.6.4"
   }
